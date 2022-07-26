@@ -1,0 +1,147 @@
+:root {
+    --darkBackground: #1f2937;
+    --lightText: #f9faf8;
+    --headerLink: #e5e7eb;
+    --buttonColor: #3882f6;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+body {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+section, footer {
+    padding: 0 100px;
+}
+#block_a {
+    padding-top: 20px;
+    background-color: var(--darkBackground);
+    padding-bottom: 80px;
+}
+.header_container, nav ul, .below_header, .subtext, .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.below_header {
+    margin-top: 80px;
+}
+header img {
+    width: 100%;
+    max-width: 20%;
+}
+nav ul li {
+    color: var(--headerLink);
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+nav ul li:hover {
+    cursor: pointer;
+    font-weight: 700;
+    border-bottom: 1px dotted var(--headerLink);
+}
+.left {
+    width: 50%;
+}
+p.webbig {
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--lightText);
+}
+p.light {
+    color: var(--headerLink);
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+button.sign {
+    background-color: var(--buttonColor);
+    color: var(--lightText);
+    padding: 7px 0;
+    margin: 10px 0;
+    width: 100px;
+    border-radius: 7px;
+}
+.right_display {
+    height: 217px;
+    background-color: var(--headerLink);
+    width: 380px;
+    opacity: 0.5;
+    text-align: center;
+    color: var(--darkBackground);
+    padding-top: 25%;
+    font-weight: 600;
+}
+section#block_b {
+    background-color: var(--lightText);
+    padding: 20px 130px 50px 130px;
+    text-align: center;
+}
+p.big {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--darkBackground);
+    margin-bottom: 30px;
+}
+.create {
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border: 3px solid var(--buttonColor);
+    border-radius: 30px 0;
+    box-shadow: 2px 2px 10px -3px var(--darkBackground);
+    background-color: white;
+}
+p.illustration {
+    color: var(--darkBackground);
+    padding: 0 20px;
+}
+section#block_c {
+    background-color: var(--headerLink);
+    padding: 100px 160px;
+    font-size: 2.5em;
+    font-style: italic;
+    color: var(--darkBackground);
+}
+#block_c cite {
+    display: block;
+    direction: rtl;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+section#block_d {
+    padding: 60px 100px;
+}
+.action {
+    background-color: var(--buttonColor);
+    padding: 30px 100px;
+    border-radius: 10px;
+    color: var(--lightText);
+}
+p.time {
+    font-size: 2em;
+    font-weight: 600;
+}
+button.signup {
+    border: 2px solid var(--lightText);
+}
+footer {
+    background-color: var(--darkBackground);
+    text-align:
+    center;
+    padding: 30px 0;
+    color: var(--lightText);
+    font-size: 1.2em;
+}
