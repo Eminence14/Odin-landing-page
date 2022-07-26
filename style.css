@@ -48,8 +48,7 @@ nav ul li {
 }
 nav ul li:hover {
     cursor: pointer;
-    font-weight: 700;
-    border-bottom: 1px dotted var(--headerLink);
+    opacity: 0.8;
 }
 .left {
     width: 50%;
